@@ -160,32 +160,32 @@ CSS
 * Ada 3 cara menggunakan CSS
 	* Inline CSS, Inline styles adalah kita menambahkan CSS pada attribute element HTML
 	* .CSS Files, Jika kita membutuhkan banyak code pada CSS, direkomendasikan untuk memisahkan code CSS di file tersendiri (extension .css) dan terpisah dari file HTML.
-	○	Access file .css in HTML Tidak ada aturan baku untuk penempatan path file .css. Namun harus dalam 1 folder project yang sama.
-●	CSS - Tag Name
-	○	Menggunakan tag Elemen HTML secara langsung pada CSS.
-	○	Jika menggunakan Tag Element, maka ini bersifat global. Global artinya akan mempengaruhi seluruh Tag Elemen HTML yang ada pada file tersebut
-●	CSS - Class Name
-	○	menggunakan attribute class pada elemen HTML lalu memanggil nama class tersebut pada CSS
-	○	HTML yang memiliki class yang sama, akan mempunyai styling yang sama saat digunakan pada CSS.
-	○	Gunakan (.) saat memanggil class pada CSS
-●	CSS - Multiple Class
-	○	Kita dapat menggunakan lebih dari 1 class yang berbeda untuk 1 element HTML
-	○	Contoh Kasus: Kita memiliki 2 heading kemudian ingin memiliki warna yang sama. Tapi, kita ingin format heading yang satu huruf besar (uppercase) dan heading yang huruf kecil (lowercase).
-●	CSS - ID Name
-	○	ID Name bersifat unik artinya hanya ada 1 nama ID pada 1 element HTML.
-	○	Biasanya digunakan jika hanya ada 1 element pada 1 page. Contohnya navigation header dan footer.
-	○	Gunakan (#namaID) saat memanggil element ID HTML pada CSS
-●	Perbedaan Class Name dan ID Name
-	○	Gunakan ID Name jika hanya ada 1 elemen pada file/halaman HTML.
-	○	Gunakan Class Name jika akan ada beberapa element HTML yang memiliki styling/desain yang sama.
-	●	Chaining Selectors
-	○	Chaining selector dapat kita gunakan pada case/kasus, Jika kita memiliki 3 tag elemen HTML pada CSS namun kita ingin ada 1 elemen HTML yang memiliki styling berbeda.
-●	Nested Element
-	○	Konsep CSS sama dengan HTML yaitu setiap element memiliki parent dan child.
-	●	Important CSS
-	○	!important CSS berada di level paling atas dari ID dan Class. Maksudnya adalah jika pada styling CSS kita menggunakan !important, maka styling sebelumnya baik itu ID Name atau Class Name akan di override. 
-●	Multiple selector
-	○	Pada CSS kita bisa membuat code lebih efisien dan tidak repetitive (melakukan hal yang sama berulang-ulang).
+	* Access file .css in HTML Tidak ada aturan baku untuk penempatan path file .css. Namun harus dalam 1 folder project yang sama.
+* CSS - Tag Name
+	* Menggunakan tag Elemen HTML secara langsung pada CSS.
+	* Jika menggunakan Tag Element, maka ini bersifat global. Global artinya akan mempengaruhi seluruh Tag Elemen HTML yang ada pada file tersebut
+* CSS - Class Name
+	* menggunakan attribute class pada elemen HTML lalu memanggil nama class tersebut pada CSS
+	* HTML yang memiliki class yang sama, akan mempunyai styling yang sama saat digunakan pada CSS.
+	* Gunakan (.) saat memanggil class pada CSS
+* CSS - Multiple Class
+	* Kita dapat menggunakan lebih dari 1 class yang berbeda untuk 1 element HTML
+	* Contoh Kasus: Kita memiliki 2 heading kemudian ingin memiliki warna yang sama. Tapi, kita ingin format heading yang satu huruf besar (uppercase) dan heading yang huruf kecil (lowercase).
+* CSS - ID Name
+	* ID Name bersifat unik artinya hanya ada 1 nama ID pada 1 element HTML.
+	* Biasanya digunakan jika hanya ada 1 element pada 1 page. Contohnya navigation header dan footer.
+	* Gunakan (#namaID) saat memanggil element ID HTML pada CSS
+* Perbedaan Class Name dan ID Name
+	* Gunakan ID Name jika hanya ada 1 elemen pada file/halaman HTML.
+	* Gunakan Class Name jika akan ada beberapa element HTML yang memiliki styling/desain yang sama.
+* Chaining Selectors
+	* Chaining selector dapat kita gunakan pada case/kasus, Jika kita memiliki 3 tag elemen HTML pada CSS namun kita ingin ada 1 elemen HTML yang memiliki styling berbeda.
+* Nested Element
+	* Konsep CSS sama dengan HTML yaitu setiap element memiliki parent dan child.
+* Important CSS
+	* !important CSS berada di level paling atas dari ID dan Class. Maksudnya adalah jika pada styling CSS kita menggunakan !important, maka styling sebelumnya baik itu ID Name atau Class Name akan di override. 
+* Multiple selector
+	* Pada CSS kita bisa membuat code lebih efisien dan tidak repetitive (melakukan hal yang sama berulang-ulang).
 
 
 
@@ -193,92 +193,91 @@ Web Development Basic
 DAY 4
 ALGORITMA
 
-●	“urutan langkah logis tertentu untuk memecahkan suatu masalah” - Microsoft Press Computer and Internet Dictionary (1998)
-●	proses tersebut dilakukan dengan cara yg logis (masuk akal) dan sistematis (terurut)
-●	Belajar algoritma sama aja dengan mengingat kembali alur berfikir yg terstruktur.
-●	Algoritma merupakan pemeran utamanya
-●	Ciri ciri algoritma
-	○	Input, memiliki 0 atau lebih inputan
-	○	Output, memiliki minimal 1 buah output
-	○	Definitiness (pasti), intruksi jelas tidak ambigu
-	○	Finiteness (ada batas), memiliki titik untuk berheti atau stop
-	○	Efectiviness (tepat atau efesien), sebisaa mungkin tepat sasaran dan efisien
-●	Algoritma memiliki berbagai jenis proses
-	○	Sequence, interuksi yang dijalankan secara berurutan
-	○	Selection, interuksi yang dijalankan jika memehuhi suatu kondisi
-	○	Iteration, interuksi yang berulang kali dijalankan selama memnuhi suatu kondisi
-	○	Concurrent, interuksi yang dijalankan secara bersamaan
-●	Pernyajian algoritma
-	○	Deskriptif, Penulisan algoritma dengan cara deskriptif seperti kita menulis tutorial (tata cara) dengan bahasa sehari-hari,
-	○	Flowchart, penyajian algoritmanya lebih mudah dibaca karena memiliki tampilan visual. Flow chart menggunakan simbol bangun datar sebagai representasi dari proses yg dilakukan.
-	○	Pseudocode, Penulisan algoritma yg hampir menyerupai penulisan pada kode pemrograman disebut dengan pseudo code.
-Pada umumnya pseudocode memiliki 3 bagian:
-	1.	Judul : Penjelasan dari algoritma yg dibuat
-	2.	Deklarasi : Mendefinisikan/menyiapkan semua nama (variabel) yg akan digunakan
-	3.	Deskripsi : langkah-langkah penyelesaian masalah
+* “urutan langkah logis tertentu untuk memecahkan suatu masalah” - Microsoft Press Computer and Internet Dictionary (1998)
+* proses tersebut dilakukan dengan cara yg logis (masuk akal) dan sistematis (terurut)
+* Belajar algoritma sama aja dengan mengingat kembali alur berfikir yg terstruktur.
+* Algoritma merupakan pemeran utamanya
+* Ciri ciri algoritma
+	* Input, memiliki 0 atau lebih inputan
+	* Output, memiliki minimal 1 buah output
+	* Definitiness (pasti), intruksi jelas tidak ambigu
+	* Finiteness (ada batas), memiliki titik untuk berheti atau stop
+	* Efectiviness (tepat atau efesien), sebisaa mungkin tepat sasaran dan efisien
+* Algoritma memiliki berbagai jenis proses
+	* Sequence, interuksi yang dijalankan secara berurutan
+	* Selection, interuksi yang dijalankan jika memehuhi suatu kondisi
+	* Iteration, interuksi yang berulang kali dijalankan selama memnuhi suatu kondisi
+	* Concurrent, interuksi yang dijalankan secara bersamaan
+* 	Pernyajian algoritma
+	* Deskriptif, Penulisan algoritma dengan cara deskriptif seperti kita menulis tutorial (tata cara) dengan bahasa sehari-hari,
+	* Flowchart, penyajian algoritmanya lebih mudah dibaca karena memiliki tampilan visual. Flow chart menggunakan simbol bangun datar sebagai representasi dari * * proses yg dilakukan.
+	* Pseudocode, Penulisan algoritma yg hampir menyerupai penulisan pada kode pemrograman disebut dengan pseudo code.
+	* Pada umumnya pseudocode memiliki 3 bagian:
+		* Judul : Penjelasan dari algoritma yg dibuat
+		* Deklarasi : Mendefinisikan/menyiapkan semua nama (variabel) yg akan digunakan
+		* Deskripsi : langkah-langkah penyelesaian masalah
 
 JAVASCRIPT
-●	Javascript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website
-●	Javascript juga dapat membuat website menjadi interaktif dan dinamis
-●	Syntax bisa dianalogikan seperti kosa kata (vocabulary) dan tata cara (grammar) pada bahasa pemograman.
-●	Kita menggunakan syntax tertentu untuk membuat statement program, instruksi untuk djalankan/dieksekusi oleh web browser, compiler, ataupun intrepreter
-●	Console log adalah tempat kita untuk cek logic pemograman web yang kita kembangkan
-●	Console log juga tempat kita untuk melakukan debugging (mengetahui error pada code) pada pemograman web
-●	Comments adalah sintaks yang digunakan untuk memberi keterangan tentang suatu statement. Menggunakan bahasa inggris atau bahasa indonesia.
-●	Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming.
-●	Ada 6 tipe data fundamental pada Javascript yaitu 
-	○	number, tipe data yang mengandung semua angka termasuk angka desimal.
-	○	String, adalah grup karakter yang ada pada keyboard laptop/PC kita yaitu letters (huruf), number (angka), spaces (spasi), symbol, dan lainnya. Harus diawali dan diakhiri dengan single quotes ‘ … ‘ ataupun double quotes “ … “. 
-	○	boolean,  tipe data yang hanya mempunyai 2 buah nilai. 2 buah nilai tersebut adalah TRUE (benar) or FALSE (salah).
-	○	null, Tipe data null adalah tipe data yang diartikan bahwa sebuah variable/data tidak memiliki nilai. Null berbeda dengan string kosong. String kosong masih memiliki tipe data string
-	○	undefined,  tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai.  Undifinied berbeda dengan null
-		■	Nilai dari pemanggilan variabel yang belum didefinisikan
-		■	Nilai dari pemanggilan element array yang tidak ada
-		■	Nilai dari pemanggilan property objek yang tidak ada
-		■	Nilai dari pemanggilan fungsi yang tidak mengembalikan nilai (return)
-		■	Nilai dari parameter fungsi yang tidak memiliki argumen
-	○	Object, Tipe data object adalah koleksi data yang saling berhubungan (related). Tipe data pbject dapat menyimpan data dengan tipe data apapun (number, string, boolean, dan lainnya). Tipe data object mempunyai key dan value.
-●	variable adalah container/tempat untuk menyimpan sebuah nilai
-●	3 hal yang dapat dilakukan pada variabel
-	○	Membuat variabel dengan nama yang jelas dan menggambarkan tentang data tersebut
-	○	Menyimpan dan mengupdate informasi/data yang disimpan
-	○	Mendapatkan/menampilan data yang tersimpan
-●	3 Cara mendefinisikan sebuah variabel
-	○	const , Gunakan const jika variabel tidak dapat diubah nilainya. Biasanya digunakan untuk menggambarkan konstanta sebuah nilai. Seperti konstanta pi = 3.14.
-	○	Let, mendukung kaidah global variabel dan local variabel. dianjurkan untuk menggunak let untuk variabel yang dinamis/dapat diubah.
-●	Aturan penamaan variabel
-	○	Harus mendeskripsikan tentang data yang disimpan
-	○	Tidak bisa menggunakan number pada awal nama variabel
-	○	Gunakan camelcase untuk penamaan yang lebih dari 1 kata.
-●	Operator
-	○	Assignment operator (=), digunakan untuk menyimpan sebuah nilai pada variabel
-	○	Increment dan Decrement, untuk menambah atau mengurangi sebesar 1 nilai.
-	○	Modulus adalah hasil dari sisa bagi.
-	○	Comparison operator adalah operator yang membandingkan satu nilai dengan nilai lainnya.Hasil operasi yang melibatkan comparison operator adalah antara true or false
-		■	Lebih kecil dari : <
-		■	Lebih besar dari: >
-		■	Lebih kecil atau sama dengan: <=
-		■	Lebih besar atau sama dengan: >=
-		■	Sama dengan: ===
-		■	Tidak sama dengan: !==
-	○	Logical operator biasa digunakan untuk sebuah CONDITIONAL pada pemograman. Menghasilkan nilai BOOLEAN yaitu TRUE or FALSE.
-		■	AND operator : &&
-		■	OR operator: ||
-		■	NOT operator: !
-	○	NOT (!), NOT akan membalikkan sebuah nilai BOOLEAN. TRUE menjadi FALSE dan sebaliknya.
+* Javascript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website
+* Javascript juga dapat membuat website menjadi interaktif dan dinamis
+* Syntax bisa dianalogikan seperti kosa kata (vocabulary) dan tata cara (grammar) pada bahasa pemograman.
+* Kita menggunakan syntax tertentu untuk membuat statement program, instruksi untuk djalankan/dieksekusi oleh web browser, compiler, ataupun intrepreter
+* Console log adalah tempat kita untuk cek logic pemograman web yang kita kembangkan
+* Console log juga tempat kita untuk melakukan debugging (mengetahui error pada code) pada pemograman web
+* Comments adalah sintaks yang digunakan untuk memberi keterangan tentang suatu statement. Menggunakan bahasa inggris atau bahasa indonesia.
+* Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming.
+* Ada 6 tipe data fundamental pada Javascript yaitu 
+	* number, tipe data yang mengandung semua angka termasuk angka desimal.
+	* String, adalah grup karakter yang ada pada keyboard laptop/PC kita yaitu letters (huruf), number (angka), spaces (spasi), symbol, dan lainnya. Harus diawali dan diakhiri dengan single quotes ‘ … ‘ ataupun double quotes “ … “. 
+	* boolean,  tipe data yang hanya mempunyai 2 buah nilai. 2 buah nilai tersebut adalah TRUE (benar) or FALSE (salah).
+	* null, Tipe data null adalah tipe data yang diartikan bahwa sebuah variable/data tidak memiliki nilai. Null berbeda dengan string kosong. String kosong masih memiliki tipe data string
+	* undefined,  tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai.  Undifinied berbeda dengan null
+		* Nilai dari pemanggilan variabel yang belum didefinisikan
+		* Nilai dari pemanggilan element array yang tidak ada
+		* Nilai dari pemanggilan property objek yang tidak ada
+		* Nilai dari pemanggilan fungsi yang tidak mengembalikan nilai (return)
+		* Nilai dari parameter fungsi yang tidak memiliki argumen
+	* Object, Tipe data object adalah koleksi data yang saling berhubungan (related). Tipe data pbject dapat menyimpan data dengan tipe data apapun (number, string, boolean, dan lainnya). Tipe data object mempunyai key dan value.
+* variable adalah container/tempat untuk menyimpan sebuah nilai
+* 3 hal yang dapat dilakukan pada variabel
+	* Membuat variabel dengan nama yang jelas dan menggambarkan tentang data tersebut
+	* Menyimpan dan mengupdate informasi/data yang disimpan
+	* Mendapatkan/menampilan data yang tersimpan
+* 3 Cara mendefinisikan sebuah variabel
+	* const , Gunakan const jika variabel tidak dapat diubah nilainya. Biasanya digunakan untuk menggambarkan konstanta sebuah nilai. Seperti konstanta pi = 3.14.
+	* Let, mendukung kaidah global variabel dan local variabel. dianjurkan untuk menggunak let untuk variabel yang dinamis/dapat diubah.
+* Aturan penamaan variabel
+	* Harus mendeskripsikan tentang data yang disimpan
+	* Tidak bisa menggunakan number pada awal nama variabel
+	* Gunakan camelcase untuk penamaan yang lebih dari 1 kata.
+* Operator
+	* Assignment operator (=), digunakan untuk menyimpan sebuah nilai pada variabel
+	* Increment dan Decrement, untuk menambah atau mengurangi sebesar 1 nilai.
+	* Modulus adalah hasil dari sisa bagi.
+	* Comparison operator adalah operator yang membandingkan satu nilai dengan nilai lainnya.Hasil operasi yang melibatkan comparison operator adalah antara true or false
+		* Lebih kecil dari : <
+		* Lebih besar dari: >
+		* Lebih kecil atau sama dengan: <=
+		* Lebih besar atau sama dengan: >=
+		* Sama dengan: ===
+		* Tidak sama dengan: !==
+	* Logical operator biasa digunakan untuk sebuah CONDITIONAL pada pemograman. Menghasilkan nilai BOOLEAN yaitu TRUE or FALSE.
+		* AND operator : &&
+		* OR operator: ||
+		* NOT operator: !
+	* NOT (!), NOT akan membalikkan sebuah nilai BOOLEAN. TRUE menjadi FALSE dan sebaliknya.
+
+
 
 Web Development Basic
 DAY 5
 JAVASCRIPT
 
-Web Development Basic
-DAY 5
-JAVASCRIPT
-
-Conditional merupakan statement percabangan yang menggambarkan suatu kondisi.
-Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut
-Yang dicek adalah apakah kondisi tersebut TRUE (benar). Jika TRUE maka code didalam kondisi tersebut dijalankan.
-Contoh conditional adalah if statement
+* Conditional merupakan statement percabangan yang menggambarkan suatu kondisi.
+* Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut
+* Yang dicek adalah apakah kondisi tersebut TRUE (benar). Jika TRUE maka code didalam kondisi tersebut dijalankan.
+* Contoh conditional adalah if statement
+```
 If (true) {
 console.log(‘This Message Will Print’)
 };
@@ -287,8 +286,10 @@ Let lapar = true;
 If (lapar) {
 Console.log (‘Yuk makan’);
 };
+```
 Contoh conditional if…else statement
 Else akan mengeksekusi sebuah statement/code jika suatu kondisi bernilai FALSE
+```
 Let lapar = false;
 If (lapar) {
 	console.log(‘Yuk makan’); // program tidak akan menampilkan statement
@@ -302,41 +303,48 @@ If (myVariable) {
 } else {
 	console.log(‘variable tidak ada’)
 }
-Truthy and Falsy Assignment
+```
+# Truthy and Falsy Assignment
 Analoginya adalah jika kita memiliki sebuah website dan meminta inputan username lalu menampilkannya. Jika usernamenya kosong kita bisa isi nilai tersebut.
+```
 Let defaultName username || ‘stranger’ ;
-Switch Case Conditional
+```
+# Switch Case Conditional
 Gunakan switch case jika kondisi dan percabangan terlalu banyak
-Ternary Operator
+# Ternary Operator
 Untuk lebih produktif, programmer harus belajar syntax singkat dari suatu fitur
 Ternary operator merupakan short-syntax dari statement if … else.
+```
 Let isNowSale = true;
 isNowSale ? console.log(‘lets shopping now’) : console.log(‘shopping later’);
-
-JAVASCRIPT - LOOPING
+```
+	
+# JAVASCRIPT - LOOPING
 Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
 Manual Looping
-For loop
+# For loop
 FOR LOOP merupakan instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan.
 Gunakan FOR LOOP jika kita tahu seberapa banyak nilai pasti untuk pengulangannya
 For (initialization; condition; post-expression) {
 		}
-For loop parameter
+# For loop parameter
 Inisialisasi: Sebagai inisialisasi awal dari mana mulainya sebuah pengulangan. Kita memberikan nilai awal/default pada parameter ini
 Condition: For loop akan terus berjalan selama kondisi ini terpenuhi. Selama kondisi bernilai TRUE.
 Post-expression (Increment/Decrement): Iterasi statement yang digunakan untuk mengupdate variabel yang menjadi kontrol pada pengulangan
+```
 Let angka = 1;
 For (angka; angka <= 10; angka++)  {
 	console.log(angka);
 }
-WHILE LOOP
+```
+# WHILE LOOP
 WHILE LOOP akan menjalankan instruksi pengulangan kondisi bernilai TRUE.
 Gunakan WHILE LOOP jika kita tidak mengetahui jumlah pasti pengulangan.
 CONTOH:
 Jika kita ingin menampilkan list user yang sudah melakukan registrasi. Kita tidak mungkin tahu nilai pasti berapa banyak pengulangan data yang akan tampil. Maka gunakan WHILE.
 
-DO WHILE
+# DO WHILE
 Terkadang kita ingin setidaknya menjalankan pengulangan 1 kali sebelum dilakukan pengecekan kondisi
 
-NESTED LOOP
+# NESTED LOOP
 Jika kita membuat looping didalam looping. Maka ini dinamakan Nested Loop. Looping pertama dianalogikan sebagai baris. Looping kedua dianalogikan sebagai kolom. 
