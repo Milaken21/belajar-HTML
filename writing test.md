@@ -68,88 +68,88 @@ Unix Command Line Git & GitHub Dasar**
 * Git commit -m “[descriptive message]” komit konten Anda yang dipentaskan sebagai snapshot komit baru 
 
 # BRANCH & MERGE
-●	Git branch, daftar cabang Anda. akan muncul di sebelah cabang yang sedang aktif 
-●	Git branch [branch-name], membuat branch baru di commit yang sekarang
-●	Git checkout, beralih ke cabang lain dan periksa ke direktori kerja Anda
-●	Git merge [branch], gabungkan riwayat cabang yang ditentukan ke yang sekarang
-●	Git log, tampilkan semua komit dalam riwayat cabang saat ini
+* Git branch, daftar cabang Anda. akan muncul di sebelah cabang yang sedang aktif 
+* Git branch [branch-name], membuat branch baru di commit yang sekarang
+* Git checkout, beralih ke cabang lain dan periksa ke direktori kerja Anda
+* Git merge [branch], gabungkan riwayat cabang yang ditentukan ke yang sekarang
+* Git log, tampilkan semua komit dalam riwayat cabang saat ini
 
-	INSPECT & COMPARE
-●	Git log, menampilkan history commit untuk perubahan aktif yang sekarang
-●	Git log branchB..branchA, menampilkan commit di branchA yang tidak ada di branchB
-●	Git log –follow [file] menampilkan commit yang merubah file, bahkan diseluruh pergantian nama
-●	Git diff branchB…branchA, menampilkan perbedaan dari apa yang ada di branchA yang tidak ada di branchB 
-●	Git show [SHA], menampilkan objek apa pun di Git dalam format yang dapat dibaca manusia 
+# INSPECT & COMPARE
+* Git log, menampilkan history commit untuk perubahan aktif yang sekarang
+* Git log branchB..branchA, menampilkan commit di branchA yang tidak ada di branchB
+* Git log –follow [file] menampilkan commit yang merubah file, bahkan diseluruh pergantian nama
+* Git diff branchB…branchA, menampilkan perbedaan dari apa yang ada di branchA yang tidak ada di branchB 
+* Git show [SHA], menampilkan objek apa pun di Git dalam format yang dapat dibaca manusia 
 
-	SHARE & UPDATE 
-●	Git remote add [alias] [url], menambahkan sebuah url git sebagai sebuah alias
-●	Git fetch [alias], ambil semua cabang dari remote Git itu
-●	Git merge [alias]/[branch], gabungkan cabang jarak jauh ke cabang Anda saat ini untuk memperbaruinya 
-●	Git push [alias][branch], Mengirimkan komit cabang lokal ke cabang repositori jarak jauh 
-●	Git pull, ambil dan gabungkan komit apa pun dari cabang jarak jauh pelacakan 
+# SHARE & UPDATE 
+* Git remote add [alias] [url], menambahkan sebuah url git sebagai sebuah alias
+* Git fetch [alias], ambil semua cabang dari remote Git itu
+* Git merge [alias]/[branch], gabungkan cabang jarak jauh ke cabang Anda saat ini untuk memperbaruinya 
+* Git push [alias][branch], Mengirimkan komit cabang lokal ke cabang repositori jarak jauh 
+* Git pull, ambil dan gabungkan komit apa pun dari cabang jarak jauh pelacakan 
 
-	TRACKING PATH CHANGES
-●	Git rm, hapus file dari proyek dan lakukan penghapusan untuk komit
-●	Git mv [existing-path] [new-path], ubah jalur file yang ada dan lakukan langkah 
-●	Git log –stat - m, tampilkan semua log komit dengan indikasi jalur apa pun yang dipindahkan 
+# TRACKING PATH CHANGES
+* Git rm, hapus file dari proyek dan lakukan penghapusan untuk komit
+* Git mv [existing-path] [new-path], ubah jalur file yang ada dan lakukan langkah 
+* Git log –stat - m, tampilkan semua log komit dengan indikasi jalur apa pun yang dipindahkan 
 
-	REWRITE HISTORY
-●	Git rebase [branch], terapkan komitmen apa pun dari cabang saat ini di depan yang ditentukan
-●	Git reset –hard [commit], bersihkan area pementasan, tulis ulang pohon kerja dari komit yang ditentukan 
+# REWRITE HISTORY
+* Git rebase [branch], terapkan komitmen apa pun dari cabang saat ini di depan yang ditentukan
+* Git reset –hard [commit], bersihkan area pementasan, tulis ulang pohon kerja dari komit yang ditentukan 
 
-TEMPORARY COMMITS
-●	Git stash, Simpan perubahan yang dimodifikasi dan bertahap
-●	Git stash list, daftar urutan tumpukan perubahan file yang disimpan 
-●	Git stash pop, tulis bekerja dari atas tumpukan simpanan
-●	Git stash drop, buang perubahan dari atas tumpukan simpanan  
+# TEMPORARY COMMITS
+* Git stash, Simpan perubahan yang dimodifikasi dan bertahap
+* Git stash list, daftar urutan tumpukan perubahan file yang disimpan 
+* Git stash pop, tulis bekerja dari atas tumpukan simpanan
+* Git stash drop, buang perubahan dari atas tumpukan simpanan  
 
 Web Development Basic
 DAY 2
 HTML
 
-●	HTML (Hypertext markup language)
-●	Digunakan untuk menampilkan konten pada browser
-●	Contoh konten yang dapat ditampilkan seperti Text, Image, Video, Link, dan masih banyak lainnya.
-●	HTML bersifat statis. HTML hanya bertugas menampilkan konten yang diminta oleh developer.
-●	HTML bukanlah sebuah bahasa pemrograman, artinya HTML tidak bisa dinamis mengolah data.
-●	Ada 2 tools utama yang harus dipersiapkan untuk membuat HTML yaitu Browser dan Code Editor
+* HTML (Hypertext markup language)
+* Digunakan untuk menampilkan konten pada browser
+* Contoh konten yang dapat ditampilkan seperti Text, Image, Video, Link, dan masih banyak lainnya.
+* HTML bersifat statis. HTML hanya bertugas menampilkan konten yang diminta oleh developer.
+* HTML bukanlah sebuah bahasa pemrograman, artinya HTML tidak bisa dinamis mengolah data.
+* Ada 2 tools utama yang harus dipersiapkan untuk membuat HTML yaitu Browser dan Code Editor
 
-	HTML STRUCTURE
-●	HTML tersusun sebagai kesatuan dari sebuah tingkatan (family tree relationship).
-●	Saat sebuah element berada di dalam element lain, maka disebut child element.
-●	Element yang berada diatas element lain disebut parent element.
+# HTML STRUCTURE
+* HTML tersusun sebagai kesatuan dari sebuah tingkatan (family tree relationship).
+* Saat sebuah element berada di dalam element lain, maka disebut child element.
+* Element yang berada diatas element lain disebut parent element.
 
-	HTML ANATOMY
-●	Element
-●	Content
-●	Opening tag
-●	Closing tag
+# HTML ANATOMY
+* Element
+* Content
+* Opening tag
+* Closing tag
 	
-	HTML ELEMENT
-●	 HTML element didefinisikan dengan opening tag, content, dan closing tag.
+# HTML ELEMENT
+* HTML element didefinisikan dengan opening tag, content, dan closing tag.
 
-	HTML ATRIBUTE
-●	Attribute adalah properties dari sebuah HTML Element.
-●	Semua HTML Element memiliki attribute.
+# HTML ATRIBUTE
+Attribute adalah properties dari sebuah HTML Element.
+Semua HTML Element memiliki attribute.
 
-	HTML COMMENT
-●	Dengan menggunakan HTML Comment, kita dapat memberikan penjelasan maksud dari line code yang kita kerjakan.
-●	Comment tidak akan dieksekusi oleh sistem.
-●	Comment hanya untuk dibaca oleh sesama programmer.
+# HTML COMMENT
+* Dengan menggunakan HTML Comment, kita dapat memberikan penjelasan maksud dari line code yang kita kerjakan.
+* Comment tidak akan dieksekusi oleh sistem.
+* Comment hanya untuk dibaca oleh sesama programmer.
 
-●	Menggunkan extention “live server” agar html auto reload
-●	Tidak semua HTML Element memiliki content. Seperti element <br>. Element ini disebut empty element. Empty element tidak memiliki closing tag.
-●	src atau source adalah  attribute untuk memberitahukan sumber gambar, bisa melalui file lokal ataupun dari internet
-●	Alt adalah alternative, Jika gambar tidak berhasil dimunculkan kita bisa memberi tahu ke user di tag img kita menampilkan gambar apa
-●	Video merupakan double closing tag sehingga kita menaruh konten di antara opening dan closing
-●	controls berguna untuk kita bisa mengatur videonya di play / pause dan indikator menit
-●	Table adalah salah satu elemen yang akan sering kita temukan dan gunakan. Contohnya data pada admin, invoice, data user, stock prices, dan masih banyak lagi.
-●	HTML tugasnya hanya membuat dan menampilkan konten saja ya.
-●	Semantic artinya kita menggunakan element html yang sesuai dengan kebutuhan konten. Jadi daripada kita menuliskan <div class=”header”> Kita menuliskan <header> Ini sangat membantu untuk developer supaya lebih “Easy to read and understand”
-●	Kegunaan semantic HTML, Meningkatkan Accessibility, Meningkatkan SEO, Lebih mudah di maintain.
-●	DEPLOY HTML, Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan supaya bisa digunakan oleh orang-orang
-●	Jika aplikasi kita HTML atau Web App kita perlu mendeploy ke server.
-●	Sedangkan jika aplikasi kita mobile seperti Android Atau IOS kita bisa deploy ke Google Play Store atau App Store
+* Menggunkan extention “live server” agar html auto reload
+* Tidak semua HTML Element memiliki content. Seperti element <br>. Element ini disebut empty element. Empty element tidak memiliki closing tag.
+* src atau source adalah  attribute untuk memberitahukan sumber gambar, bisa melalui file lokal ataupun dari internet
+* Alt adalah alternative, Jika gambar tidak berhasil dimunculkan kita bisa memberi tahu ke user di tag img kita menampilkan gambar apa
+* Video merupakan double closing tag sehingga kita menaruh konten di antara opening dan closing
+* controls berguna untuk kita bisa mengatur videonya di play / pause dan indikator menit
+* Table adalah salah satu elemen yang akan sering kita temukan dan gunakan. Contohnya data pada admin, invoice, data user, stock prices, dan masih banyak lagi.
+* HTML tugasnya hanya membuat dan menampilkan konten saja ya.
+* Semantic artinya kita menggunakan element html yang sesuai dengan kebutuhan konten. Jadi daripada kita menuliskan <div class=”header”> Kita menuliskan <header> Ini * * sangat membantu untuk developer supaya lebih “Easy to read and understand”
+* Kegunaan semantic HTML, Meningkatkan Accessibility, Meningkatkan SEO, Lebih mudah di maintain.
+* DEPLOY HTML, Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan supaya bisa digunakan oleh orang-orang
+* Jika aplikasi kita HTML atau Web App kita perlu mendeploy ke server.
+* Sedangkan jika aplikasi kita mobile seperti Android Atau IOS kita bisa deploy ke Google Play Store atau App Store
 
 
 Web Development Basic
