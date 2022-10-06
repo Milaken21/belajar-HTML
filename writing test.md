@@ -3,24 +3,24 @@ DAY 1
 Unix Command Line Git & GitHub Dasar**
 
 * Aplikasi dibagi menjadi 2 jenis dari segi tampilan yaitu GUI (Graphic User Interface)  dan CLI (Command Line Interface)
-●	Command line interface (CLI) atau Shell yang berbasis teks
-●	Shell merupakan perintah yang digunakan untuk mengintruksikan sistem operasi
-●	Shell ini adalah program yang menerima perintah, kemudian meneruskan perintah tersebut ke system untuk dieksekusi. 
-●	Contoh CLI sh, bash, zsh, dan cmd.exe
-●	Bash (Bound Again Shell) identik untuk unix/linux
-●	Shell, program yang digunakan untuk berkomunikasi atau memerintah sistem
-●	Command Line Interface, jenis shell yang berbasis teks
-●	Terminal Emulator, aplikasi untuk mengakses CLI
-●	Sebuah filesystem mengatur bagaimana data disimpan di dalam sebuah system
-●	Sistem operasi Windows & Unix-like menyusun file dan direktori menggunakan struktur yang bentuknya mirip tree  
-●	File System Tree: Cara sistem operasi menyusun file-filenya dalam bentuk hierarki atau tree
-●	Direktori yang paling atas atau paling pertama disebut “root directory”.
-●	Ditambah -a untuk melihat file yang di hidden atau disembunyikan
+* Command line interface (CLI) atau Shell yang berbasis teks
+* Shell merupakan perintah yang digunakan untuk mengintruksikan sistem operasi
+* Shell ini adalah program yang menerima perintah, kemudian meneruskan perintah tersebut ke system untuk dieksekusi. 
+* Contoh CLI sh, bash, zsh, dan cmd.exe
+* Bash (Bound Again Shell) identik untuk unix/linux
+* Shell, program yang digunakan untuk berkomunikasi atau memerintah sistem
+* Command Line Interface, jenis shell yang berbasis teks
+* Terminal Emulator, aplikasi untuk mengakses CLI
+* Sebuah filesystem mengatur bagaimana data disimpan di dalam sebuah system
+* Sistem operasi Windows & Unix-like menyusun file dan direktori menggunakan struktur yang bentuknya mirip tree  
+* File System Tree: Cara sistem operasi menyusun file-filenya dalam bentuk hierarki atau tree
+* Direktori yang paling atas atau paling pertama disebut “root directory”.
+* Ditambah -a untuk melihat file yang di hidden atau disembunyikan
 
-Command untuk navigasi
-    ●	Pwd (Print Working Directory) command untuk melihat current working directry
-    ●	Ls (lists) command untuk melihat isi file yang ada di sebuah directory
-    ●	Cd (Change Directory) Command untuk pindah directory
+# Command untuk navigasi
+* Pwd (Print Working Directory) command untuk melihat current working directry
+* Ls (lists) command untuk melihat isi file yang ada di sebuah directory
+* Cd (Change Directory) Command untuk pindah directory
 
 Membuat files dan direktori
 ●	Touch command untuk membuat sebuah file
