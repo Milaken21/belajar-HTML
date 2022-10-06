@@ -2,7 +2,7 @@
 DAY 1
 Unix Command Line Git & GitHub Dasar**
 
-●	Aplikasi dibagi menjadi 2 jenis dari segi tampilan yaitu GUI (Graphic User Interface)  dan CLI (Command Line Interface)
+* Aplikasi dibagi menjadi 2 jenis dari segi tampilan yaitu GUI (Graphic User Interface)  dan CLI (Command Line Interface)
 ●	Command line interface (CLI) atau Shell yang berbasis teks
 ●	Shell merupakan perintah yang digunakan untuk mengintruksikan sistem operasi
 ●	Shell ini adalah program yang menerima perintah, kemudian meneruskan perintah tersebut ke system untuk dieksekusi. 
