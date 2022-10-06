@@ -22,52 +22,52 @@ Unix Command Line Git & GitHub Dasar**
 * Ls (lists) command untuk melihat isi file yang ada di sebuah directory
 * Cd (Change Directory) Command untuk pindah directory
 
-Membuat files dan direktori
-●	Touch command untuk membuat sebuah file
-●	Mkdir command untuk membuat sebuah direktori
+# Membuat files dan direktori
+* Touch command untuk membuat sebuah file
+* Mkdir command untuk membuat sebuah direktori
 
-	Melihat isi file
-●	Head command untuk melihat beberapa line awal dari sebuah file text
-●	Tail command untuk melihat beberapa line awal dari sebuah file text
-●	Cat command untuk melihat isi file
+# Melihat isi file
+* Head command untuk melihat beberapa line awal dari sebuah file text
+* Tail command untuk melihat beberapa line awal dari sebuah file text
+* Cat command untuk melihat isi file
 
-Menyalin, memindahkan, dan menghapus files & directory
-●	Cp command untuk mengcopy file atau directory
-●	Mv (Move) Command untuk memindahkan files atau directory, bisa juga di gunakan untuk rename.
-●	Rm (Remove) command untuk menghapus file atau directory 
+# Menyalin, memindahkan, dan menghapus files & directory
+* Cp command untuk mengcopy file atau directory
+* Mv (Move) Command untuk memindahkan files atau directory, bisa juga di gunakan untuk rename.
+* Rm (Remove) command untuk menghapus file atau directory 
 
-	Summary
-1.	Command “head”, “tail”, dan “cat” untuk isi files di awal, akhir, dan keseluruhan.
-2.	Command “touch” untuk membuat file
-3.	Command “mkdir”  untuk membuat directory
-4.	Command “cp” untuk menyalin file, “cp -R” untuk menyalin directory
-5.	Command “mv” untuk memindahkan file, “mv -R” untuk memindahkan directory
-6.	Command “rm” untuk menghapus file, “rm -R” atau “rm -d” untuk menghapus directory
+# Summary
+* Command “head”, “tail”, dan “cat” untuk isi files di awal, akhir, dan keseluruhan.
+* Command “touch” untuk membuat file
+* Command “mkdir”  untuk membuat directory
+* Command “cp” untuk menyalin file, “cp -R” untuk menyalin directory
+* Command “mv” untuk memindahkan file, “mv -R” untuk memindahkan directory
+* Command “rm” untuk menghapus file, “rm -R” atau “rm -d” untuk menghapus directory
 
-GIT & GITHUB
-●	Git merupakan tools untuk programmer
-●	Git sebagai version control system
-●	Version control sistem bertugas untuk  mencatat setiap perubahan pada File (termasuk code yang kita buat) pada suatu proyek baik dikerjakan secara individu maupun tim.
-●	Git adalah aplikasi yang dapat melacak setiap perubahan yang terjadi pada suatu folder atau file.
-●	 File -file yg disimpan menggunakan git akan terlacak seluruh perubahannya, termasuk siapa yang mengubah.
-●	Tujuan menggunakan git dan github adalah untuk berkolaborasi mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate. Kamu juga tidak perlu menunggu rekan dalam satu tim kamu menyelesaikan suatu program dahulu untuk berkolaborasi. 
-●	Repository adalah direktori proyek yang kita buat
-●	1 repo = 1 proyek = 1 Direktori
+# GIT & GITHUB
+* Git merupakan tools untuk programmer
+* Git sebagai version control system
+* Version control sistem bertugas untuk  mencatat setiap perubahan pada File (termasuk code yang kita buat) pada suatu proyek baik dikerjakan secara individu maupun tim.
+* Git adalah aplikasi yang dapat melacak setiap perubahan yang terjadi pada suatu folder atau file.
+* File -file yg disimpan menggunakan git akan terlacak seluruh perubahannya, termasuk siapa yang mengubah.
+* Tujuan menggunakan git dan github adalah untuk berkolaborasi mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate. Kamu juga tidak perlu menunggu rekan dalam satu tim kamu menyelesaikan suatu program dahulu untuk berkolaborasi. 
+* Repository adalah direktori proyek yang kita buat
+* 1 repo = 1 proyek = 1 Direktori
 
-SETUP & INIT
-●	Git init, inisialisasi direktori yang ada sebagai repository git. Mampu melacak perubahan
-●	Git klon [url] mengambil seluruh repositori dari lokasi yang dihosting melalui url
+# SETUP & INIT
+* Git init, inisialisasi direktori yang ada sebagai repository git. Mampu melacak perubahan
+* Git klon [url] mengambil seluruh repositori dari lokasi yang dihosting melalui url
 
-	STAGE & SNAPSHOT
-●	Git status, menampilkan file yang dimodifikasi di direktori kerja, ditampilkan untuk komit anda yang berikutnya
-●	Git add [file], tambahkan file seperti yang terlihat sekarang ke komit Anda (tahap) berikutnya
-●	Git add . semua file ditandain
-●	Git reset [file], unstage file sambil mempertahankan perubahan di direktori kerja
-●	Git diff, perbedaan dari apa yang diubah tetapi tidak ditampilkan
-●	Git diff –staged, perbedaan dari apa yang dipentaskan tetapi belum dilakukan 
-●	Git commit -m “[descriptive message]” komit konten Anda yang dipentaskan sebagai snapshot komit baru 
+# STAGE & SNAPSHOT
+* Git status, menampilkan file yang dimodifikasi di direktori kerja, ditampilkan untuk komit anda yang berikutnya
+* Git add [file], tambahkan file seperti yang terlihat sekarang ke komit Anda (tahap) berikutnya
+* Git add . semua file ditandain
+* Git reset [file], unstage file sambil mempertahankan perubahan di direktori kerja
+* Git diff, perbedaan dari apa yang diubah tetapi tidak ditampilkan
+* Git diff –staged, perbedaan dari apa yang dipentaskan tetapi belum dilakukan 
+* Git commit -m “[descriptive message]” komit konten Anda yang dipentaskan sebagai snapshot komit baru 
 
-	BRANCH & MERGE
+# BRANCH & MERGE
 ●	Git branch, daftar cabang Anda. akan muncul di sebelah cabang yang sedang aktif 
 ●	Git branch [branch-name], membuat branch baru di commit yang sekarang
 ●	Git checkout, beralih ke cabang lain dan periksa ke direktori kerja Anda
