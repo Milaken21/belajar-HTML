@@ -295,8 +295,10 @@ If (lapar) {
 	console.log(‘Yuk makan’); // program tidak akan menampilkan statement
 } else {
 	console.log(‘tidak makan’); //program akan menampilkan statement ini
-IF ..ELSE IF Statement
+```
+# IF ..ELSE IF Statement
 Digunakan ketika memiliki berbagai kondisi
+```
 Let myVariabel = ‘hacktiv8’;
 If (myVariable) {
 	console.log(myVariable)
