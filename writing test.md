@@ -155,11 +155,11 @@ Semua HTML Element memiliki attribute.
 Web Development Basic
 DAY 3
 CSS
-●	CSS adalah bahasa yang digunakan untuk mendesain halaman website.
-●	Dengan CSS, kita bisa mengubah warna, menggunakan font custom, editing text format, mengatur tata letak, dan lainnya.
-●	Ada 3 cara menggunakan CSS
-	○	Inline CSS, Inline styles adalah kita menambahkan CSS pada attribute element HTML
-	○	.CSS Files, Jika kita membutuhkan banyak code pada CSS, direkomendasikan untuk memisahkan code CSS di file tersendiri (extension .css) dan terpisah dari file HTML.
+* CSS adalah bahasa yang digunakan untuk mendesain halaman website.
+* Dengan CSS, kita bisa mengubah warna, menggunakan font custom, editing text format, mengatur tata letak, dan lainnya.
+* Ada 3 cara menggunakan CSS
+	* Inline CSS, Inline styles adalah kita menambahkan CSS pada attribute element HTML
+	* .CSS Files, Jika kita membutuhkan banyak code pada CSS, direkomendasikan untuk memisahkan code CSS di file tersendiri (extension .css) dan terpisah dari file HTML.
 	○	Access file .css in HTML Tidak ada aturan baku untuk penempatan path file .css. Namun harus dalam 1 folder project yang sama.
 ●	CSS - Tag Name
 	○	Menggunakan tag Elemen HTML secara langsung pada CSS.
